@@ -14,7 +14,6 @@ def dict_cook_book():
                 listing.append(other)
             cook_book[dish] = listing
             file.readline().strip()    
-
     return cook_book   
 
 def get_shop_list_by_dishes(dishes, person_count):
